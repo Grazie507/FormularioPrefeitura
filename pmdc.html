@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Atendimentos</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Registro de Atendimentos</h1>
+        <p>Anote tudo o que for feito durante o expediente</p>
+        <span>*Obrigatório</span>
+      </div>
+    </header>
+
+    <article>
+      <section>
+        <div>
+          <form action="" method="POST">
+            <h2>Executante do Chamado <span>*</span></h2>
+            <input type="checkbox" name="func" id="danieLour" required />
+            <label for="func">Daniel Lourenço</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="eliasBar" required />
+            <label for="func">Elias Barbosa</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="fernandoFel" required />
+            <label for="func">Fernando Felipe</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="gabrielMar" required />
+            <label for="func">Gabriel Martins</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="grazielaNasc" required />
+            <label for="func">Graziela Nascimento</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="henriqueCar" required />
+            <label for="func">Henrique Cardozo</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="joyceVie" required />
+            <label for="func">Joyce Vieira</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="leandroAlv" required />
+            <label for="func">Leandro Alves</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="leonardoFer" required />
+            <label for="func">Leonardo Ferreira</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="pedroFel" required />
+            <label for="func">Pedro Felix</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="rafaelBap" required />
+            <label for="func">Rafael Baptista</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="rubensGui" required />
+            <label for="func">Rubens Guilherme</label>
+
+            <br />
+
+            <input type="checkbox" name="func" id="tiagoAlv" required />
+            <label for="func">Tiago Alves</label>
+
+            <br />
+
+            <span></span>
+          </form>
+        </div>
+      </section>
+
+      <section>
+        <form action="" method="POST">
+          <h2>Setor <span>*</span></h2>
+          <select name="setor" id="setorId">
+            <option value="escolher">
+              <span>Escolher</span>
+            </option>
+            <optgroup label="SMG">
+              <option value="seo">SEO</option>
+              <option value="spo">SPO</option>
+              <option value="ouvidoria">Ouvidoria</option>
+              <option value="boletimOfc">Boletim Oficial</option>
+              <option value="protocolo">Protocolo</option>
+              <option value="caf">CAF</option>
+              <option value="dpe">DPE</option>
+              <option value="assistSec">Assistentes de Secretário</option>
+              <option value="consulTec">Consultoria Técnica</option>
+              <option value="gabGov">Gabinete do Governo</option>
+              <option value="recPref">Recepção do Prefeito</option>
+              <option value="prefeito">Prefeito</option>
+              <option value="salaReu">Sala de Reunião do Prefeito</option>
+              <option value="vicePref">Vice-Prefeito</option>
+              <option value="denison">Denison</option>
+              <option value="boro">Boro</option>
+              <option value="pregao">Pregão</option>
+              <option value="daacs">DAACS</option>
+              <option value="cpl">CPL</option>
+            </optgroup>
+
+            <optgroup label="SMCI">
+              <option value="relaçoesExt">Relações Externas</option>
+              <option value="gabineteCont">Gabinete Controle Interno</option>
+              <option value="dccl">DCCL</option>
+              <option value="protocolo">Protocolo</option>
+              <option value="inspAud">Inspetoria / Auditoria</option>
+              <option value="ouvidoria">Ouvidoria</option>
+            </optgroup>
+
+            <optgroup label="SMF">
+              <option value="contabil">Contabilidade</option>
+              <option value="protocolo">Protocolo</option>
+              <option value="tesouro">Tesouraria</option>
+              <option value="ccp">CCP</option>
+              <option value="seo">SEO</option>
+              <option value="gabineteFaz">Gabinete Fazenda</option>
+              <option value="subFin">Sub. de Finanças</option>
+            </optgroup>
+
+            <optgroup label="Outros">
+              <option value="atendExt">Atendimento Externo</option>
+              <option value="ti">Ti</option>
+              <option value="comunic">Comunicação</option>
+              <option value="pgm">PGM</option>
+              <option value="sma">SMA</option>
+            </optgroup>
+          </select>
+        </form>
+      </section>
+
+      <section>
+        <div>
+          <h2>Solicitante (Nome)</h2>
+          <input type="text" placeholder="Sua resposta" required />
+        </div>
+      </section>
+
+      <section>
+        <h2>Assunto (Palavra-Chave) <span>*</span></h2>
+        <select name="assunto" id="assuntoId">
+          <option value="escolher">Escolher</option>
+          <option value="salaOb">Sala/Obra</option>
+          <option value="rede">Rede</option>
+          <option value="site">Site</option>
+          <option value="impress">Impressora</option>
+          <option value="comput">Computador</option>
+          <option value="programa">Programa</option>
+          <option value="celular">Celular</option>
+        </select>
+      </section>
+
+      <section>
+        <div>
+          <h2>Descreva o Problema <span>*</span></h2>
+          <input type="text" placeholder="Sua resposta" required />
+        </div>
+      </section>
+    </article>
+  </body>
+</html>
